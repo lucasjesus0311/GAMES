@@ -96,6 +96,7 @@
             // 
             // Frame
             // 
+            this.Frame.Interval = 20;
             this.Frame.Tick += new System.EventHandler(this.Frame_Tick);
             // 
             // Snake2

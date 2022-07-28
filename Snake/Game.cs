@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Snake
 {
     class Game
@@ -154,6 +155,8 @@ namespace Snake
                 Food.CreatFood();
                 pontos += 9;
                 LbPontuacao.Text = "PONTOS: " + pontos;
+                
+                
 
 
             }
