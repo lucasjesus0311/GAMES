@@ -103,7 +103,7 @@ namespace Snake
             }
 
             bitmapGraph.Clear(Color.White);
-            bitmapGraph.DrawImage(Properties.Resources.food, (Food.Location.X * 15), (Food.Location.Y * 15), 15, 15); 
+            bitmapGraph.DrawImage(Properties.Resources.food, (Food.Location.X * 15), (Food.Location.Y * 15), 15, 15);
 
             bool gameOver = false;
 
